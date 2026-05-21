@@ -1,0 +1,23 @@
+{
+  "skill_name": "project-wrapup-summary",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "我们这个小项目做完了，帮我按目标、改动、验证、风险、下一步开始点总结一下。",
+      "expected_output": "A concise Simplified Chinese wrap-up with five ordered sections: task goal, final changes, verified items, remaining risks, and next starting point.",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "wrap up this coding session so I can resume tomorrow. Mention what changed, what was tested, risks, and where to start next.",
+      "expected_output": "A concise project handoff summary covering the five required points, using the user's language unless workspace instructions require Chinese.",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "总结一下刚才的修复，尤其是还有什么没验证，后面接着做应该先看哪里。",
+      "expected_output": "A direct summary that explicitly names unverified areas and gives a concrete next starting point.",
+      "files": []
+    }
+  ]
+}
