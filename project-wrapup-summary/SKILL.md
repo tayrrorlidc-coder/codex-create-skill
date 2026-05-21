@@ -31,6 +31,7 @@ Always cover these five points, in this order:
 
 - Be concise and direct.
 - Prefer concrete facts over vague status language.
+- Treat the summary as a handoff note that may survive context compaction. Make it self-contained enough that a future assistant can continue from it without rereading the full conversation.
 - If no verification was run, say that explicitly.
 - If there are no known risks, say "暂无已知风险", but still mention any reasonable residual uncertainty.
 - Do not invent tests, files, commits, PRs, or verification that did not happen.
