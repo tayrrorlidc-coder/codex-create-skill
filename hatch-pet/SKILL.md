@@ -432,7 +432,7 @@ Run dir: <absolute run dir>
 Job id: base
 Prompt file: <absolute base prompt file>
 Input images:
-- <absolute path> — <role>
+- <absolute path> - <role>
 
 Use $imagegen only. Read the base prompt and attach every listed input image. If the prompt contains brand inspiration, use it only as broad mascot-safe guidance; do not copy logos, readable marks, UI screenshots, slogans, or text. Before returning, visually check that the result is one centered full-body pet on a flat chroma background, with no text, scenery, shadows, or detached effects.
 
@@ -454,8 +454,8 @@ Row id: <row-id>
 Prompt file: <absolute prompt file>
 Retry prompt file: <absolute retry prompt file>
 Input images:
-- <absolute path> — <role>
-- <absolute path> — <role>
+- <absolute path> - <role>
+- <absolute path> - <role>
 
 Use $imagegen only. Read the row prompt and attach every listed input image. If imagegen returns Bad Request, retry once with the retry prompt and the same input images.
 
